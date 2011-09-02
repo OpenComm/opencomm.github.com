@@ -196,7 +196,7 @@ body {
     margin:0 auto;
     padding:0;
     border:0;
-    width:775px;
+    width:750px;
 }
 
 #footerWrapper {
@@ -257,19 +257,19 @@ body {
 		background:#fff;		/* right column background colour */
 	}
 	.leftmenu .colleft {
-		right:70%;			/* right column width */
+		right:75%;			/* right column width */
 		/* left column background colour */
 		background-image: url('Joelk75_Green_Blue_Chair.jpg');
 		background-repeat: no-repeat;
-		background-size: 220px;
+		background-size: 190px;
 		background-position: right bottom;
 	}
 	.leftmenu .col1 {
-		width:66%;			/* right column content width */
+		width:71%;			/* right column content width */
 		left:102%;			/* 100% plus left column left padding */
 	}
 	.leftmenu .col2 {
-		width:26%;			/* left column content width (column width minus left and right padding) */
+		width:21%;			/* left column content width (column width minus left and right padding) */
 		left:6%;			/* (right column left and right padding) plus (left column left padding) */
 		color:#87EA00;
 	}
