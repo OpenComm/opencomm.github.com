@@ -137,6 +137,19 @@ ul li {
 	margin: 6px 0 0 15px;
 }
 
+a:link, a:visited {
+		color:#87EA00;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	
+a:hover, li.page a {
+		color:#589800;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
 /*---------------------------------------------------------------
 
 	II. LAYOUT RULES 
@@ -312,13 +325,14 @@ body {
 -----------------------------------------------------------------*/	
 
 
-#relationship {
-	margin-left: 25px;
-	font-size: 1.2em;
-
+#relationships {
+	font-size: 1.3em;
+	text-align: center;
+	line-height: 1.3;
+	margin-bottom: 25px;
 }
 
-#relationship .individual {
+#relationships .ind {
 	font-style: italic;
 }
 
