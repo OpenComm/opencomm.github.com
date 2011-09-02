@@ -292,7 +292,7 @@ body {
 		margin: 0px;
 	}
 	
-	.leftmenu .col2 ul li a:link, a:visited {
+	.leftmenu .col2 ul li a:link, .leftmenu .col2 ul li a:visited {
 		color:#87EA00;
 		font-weight: bold;
 		text-decoration: none;
