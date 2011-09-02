@@ -157,6 +157,7 @@ body {
 	width:100%;
 	font-family:helvetica, arial, verdana, sans-serif;
 	font-size:90%;
+	background-color: #fff;
 }
 
 #headerSuperWrapper {
@@ -170,6 +171,7 @@ body {
 #headerWrapper {
     width:800px;
     margin:0 auto; /* Centers the white space to center of browser window */
+	background-color: #fff;
 }
 
 
@@ -188,16 +190,127 @@ body {
     padding:0;
     border:0;
     width:100%;
-    background-color:#FFD673;
-    width:100%;
 }
 
 #contentWrapper {
     margin:0 auto;
     padding:0;
     border:0;
-    width:750px;
+    width:775px;
 }
+
+#footerWrapper {
+    clear: both;
+	margin:0 auto;
+    border:0;
+    width:750px;
+    background-color:#FFB400;
+    color:#FFFFFF;
+    text-align:left;
+}
+
+#footer {
+	padding: 10px;
+}
+
+#footer a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+/*---------------------------------------------------------------
+
+	III. COLUMN RULES 
+	
+		These column styles are courtesy of Matthew James Taylor
+		http://matthewjamestaylor.com/blog/perfect-2-column-left-menu.htm
+
+-----------------------------------------------------------------*/
+
+/* column container */
+	.colmask {
+		position:relative;	/* This fixes the IE7 overflow hidden bug */
+		clear:both;
+		float:left;
+		width:100%;			/* width of whole page */
+		overflow:hidden;		/* This chops off any overhanging divs */
+	}
+	/* common column settings */
+	.colright,
+	.colmid,
+	.colleft {
+		float:left;
+		width:100%;
+		position:relative;
+	}
+	.col1,
+	.col2,
+	.col3 {
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;
+		overflow:hidden;
+	}
+	/* 2 Column (left menu) settings */
+	.leftmenu {
+		background:#fff;		/* right column background colour */
+	}
+	.leftmenu .colleft {
+		right:70%;			/* right column width */
+		/* left column background colour */
+		background-image: url('Joelk75_Green_Blue_Chair.jpg');
+		background-repeat: no-repeat;
+		background-size: 220px;
+		background-position: right bottom;
+	}
+	.leftmenu .col1 {
+		width:66%;			/* right column content width */
+		left:102%;			/* 100% plus left column left padding */
+	}
+	.leftmenu .col2 {
+		width:26%;			/* left column content width (column width minus left and right padding) */
+		left:6%;			/* (right column left and right padding) plus (left column left padding) */
+		color:#87EA00;
+	}
+
+/*---------------------------------------------------------------
+
+	IV. MENU RULES 
+	
+-----------------------------------------------------------------*/	
+	
+	.leftmenu .col2 ul {
+		list-style: none;
+		margin: 0px;
+	}
+	
+	.leftmenu .col2 ul li {
+		font-size: 1.5em;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0px;
+	}
+	
+	.leftmenu .col2 ul li a:link, a:visited {
+		color:#87EA00;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	
+	.leftmenu .col2 ul li a:hover, .leftmenu .col2 ul li.page a {
+		color:#589800;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+/*---------------------------------------------------------------
+
+	V. MISCELLANEOUS
+	
+-----------------------------------------------------------------*/	
+
 
 #relationship {
 	margin-left: 25px;
@@ -232,23 +345,3 @@ body {
 #bottom {
 	margin-left: 250px;
 }
-
-#footerWrapper {
-    margin:0 auto;
-    border:0;
-    width:750px;
-    background-color:#FFB400;
-    color:#FFFFFF;
-    text-align:left;
-}
-
-#footer {
-	padding: 10px;
-}
-
-#footer a {
-	color: #ffffff;
-	font-weight: bold;
-}
-
-
