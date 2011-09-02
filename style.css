@@ -131,21 +131,21 @@ ul {
 	margin: 10px;
 }
 
-ul li {
+ul li, ul li ul li {
 	font-size: 1.2em;
 	line-height: 1.5;
 	margin: 6px 0 0 15px;
 }
 
 a:link, a:visited {
-		color:#87EA00;
+		color:#589800;
 		font-weight: bold;
 		text-decoration: none;
 	}
 
 	
 a:hover, li.page a {
-		color:#589800;
+		color:#87EA00;
 		font-weight: bold;
 		text-decoration: none;
 	}
@@ -306,14 +306,14 @@ body {
 	}
 	
 	.leftmenu .col2 ul li a:link, .leftmenu .col2 ul li a:visited {
-		color:#87EA00;
+		color:#589800;
 		font-weight: bold;
 		text-decoration: none;
 	}
 
 	
 	.leftmenu .col2 ul li a:hover, .leftmenu .col2 ul li.page a {
-		color:#589800;
+		color:#87EA00;
 		font-weight: bold;
 		text-decoration: none;
 	}
