@@ -2,13 +2,14 @@
 
 	OpenComm CSS Stylesheet
     Author: Risa Naka (rn96)
-    Created: May 26, 2011
-    Last Modified: May 26, 2011
+    Created: August 31, 2011
+    Last Modified: August 31, 2011
     
     Structure of the stylesheet is based off of the website of 
     Cornell University's International and Labor Relations School
     (http://www.ilr.cornell.edu/)
 		
+	
 -----------------------------------------------------------------*/
  
  /*---------------------------------------------------------------
@@ -75,10 +76,70 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*---------------------------------------------------------------
+
+	I. BASIC ELEMENTS
+	
+		Theses rules target the various elements on the homepage
+		and control their position, background imagery (if any) 
+		and dimension. Their contents are styled in their
+		respective sections in this stylesheet.
+
+-----------------------------------------------------------------*/
+
+p {
+    font-size: 1.2em;
+    line-height: 1.3;
+	padding: 10px 25px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0 0 5px 0;
+}
+
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 a {
+    color: #0f2e60;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+ul {
+	list-style: square;
+	margin: 10px;
+}
+
+ul li {
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin: 6px 0 0 15px;
+}
 
 /*---------------------------------------------------------------
 
-	I. LAYOUT RULES 
+	II. LAYOUT RULES 
 	
 		Theses rules target the various elements on the homepage
 		and control their position, background imagery (if any) 
@@ -96,31 +157,98 @@ body {
 	width:100%;
 	font-family:helvetica, arial, verdana, sans-serif;
 	font-size:90%;
-	text-align:center;
 }
 
 #headerSuperWrapper {
+    width:100%;
+    margin:0;
+    padding:0;
+    border:0;
+	background-color: #fff;
+}
+
+#headerWrapper {
+    width:800px;
+    margin:0 auto; /* Centers the white space to center of browser window */
+}
+
+
+
+#header {
+    position:relative;
+    float:left;
+    width:100%;
+	margin: 25px;
+    text-align:left;
+}
+
+
+#contentSuperWrapper {
     margin:0;
     padding:0;
     border:0;
     width:100%;
-    background-color: #EB6AA3;
+    background-color:#FFD673;
     width:100%;
 }
 
-#headerWrapper {
-	margin:0;
+#contentWrapper {
+    margin:0 auto;
     padding:0;
     border:0;
-    width:800px;
-    background-color: #EB3B88;
-	text-align:left;
-	margin:0 auto;
+    width:750px;
 }
 
-#header {
-    clear:both;
-    float:left;
-    color: #ffffff;
-    width:100%;
+#relationship {
+	margin-left: 25px;
+	font-size: 1.2em;
+
 }
+
+#relationship .individual {
+	font-style: italic;
+}
+
+.important {
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#content {
+	text-align: left;
+	margin-left: 25px;
+}
+
+#bottomWrapper {
+	margin:0 auto;
+    padding:0;
+    border:0;
+    width:750px;
+	background-image: url('Joelk75_Green_Blue_Chair.jpg');
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#bottom {
+	margin-left: 250px;
+}
+
+#footerWrapper {
+    margin:0 auto;
+    border:0;
+    width:750px;
+    background-color:#FFB400;
+    color:#FFFFFF;
+    text-align:left;
+}
+
+#footer {
+	padding: 10px;
+}
+
+#footer a {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
