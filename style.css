@@ -332,13 +332,12 @@ body {
 	margin-bottom: 25px;
 }
 
-#relationships .ind {
+#relationships .ind, .quote {
 	font-style: italic;
 }
 
 .important {
-	/** color: #ff0000;
-	font-weight: bold; */
+	font-weight: bold;
 }
 
 #content {
