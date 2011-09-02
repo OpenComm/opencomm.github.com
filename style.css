@@ -210,8 +210,8 @@ body {
 }
 
 .important {
-	color: #ff0000;
-	font-weight: bold;
+	/** color: #ff0000;
+	font-weight: bold; */
 }
 
 #content {
