@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+Name       : Domesticated
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100701
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>OpenComm</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <script type="text/javascript" src="jquery/jquery-1.4.2.min.js">
+        </script>
+        <script type="text/javascript" src="jquery/jquery.slidertron-0.1.js">
+        </script>
+        <script type="text/javascript">
+            function setWrapperHeight(){
+                colheight = document.getElementsByClassName("col1")[0].offsetHeight;
+                document.getElementById("three-columns").style.height = colheight + "px";
+                document.getElementsByClassName("col2")[0].style.height = (colheight - 50) + "px";
+            }
+        </script>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/tallwrapper.css" rel="stylesheet" type="text/css" media="screen" />
+        <style type="text/css">
+        </style>
+		<!--get height of wrapper using jquery and apply it for div=wrapper and col2 -->
+    </head>
+    <body onload="javaript:setWrapperHeight();">
+    <!-- end #header-wrapper -->
+    <div id="header">
+        <div id="logo">
+            <h1><a href="index.html">OpenComm</a></h1>
+            <p>
+                <img src="" alt="" />
+            </p>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="first">Homepage</a>
+                </li>
+                <li>
+                    <a href="features.html">Features</a>
+                </li>
+                <li>
+                    <a href="demo.html">Demos</a>
+                </li>
+                <li class="current_page_item">
+                    <a href="awards.html">Awards</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="join.html">Join Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end #menu -->
+    </div>
+    <!-- end #header --><hr/>
+    <div id="wrapper">
+        <!-- end #logo -->
+        <div id="three-columns">
+            <div class="col1">
+                <div id="foobar">
+                    <div class="viewer">
+                        <h2>Awards</h2>
+                        <p>
+                            OpenComm is an award-winning team with a great group dynamic and support from several faculty members. 
+                            Our work on sound spacialization is a particular point of interest and is one of the aspects that make OpenComm a unique tool for video conferences.
+                        </p>
+                        <p>
+                            "BOOM is an annual showcase of student research and creativity in digital technology 
+                            and applications. It's an opportunity for Cornell undergraduate and Master's-level students to show their  
+                            best work in cutting-edge technologies to the public and the Cornell community. BOOM is free and open to 
+                            the public. All visitors can participate in demonstrations and vote on their favorite project, and there 
+                            will be refreshments and door prizes." - Cornell BOOM 2011 Last year. OpenComm received the Cisco Pioneer
+                            Awards and GE Imagination in IT Award.
+                        </p>
+                        <a href="http://www.news.cornell.edu/stories/March11/BOOMCover.html">Check out the Cornell Chronicle article here.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <img src="images/boomheader.gif" alt="BOOM"/>
+            </div>
+        </div>
+    </div><!-- end #page -->
+    </div>
+    <div id="footer">
+        <p>
+            Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">CSS Templates</a>.
+        </p>
+    </div>
+    <!-- end #footer -->
+</body>
+</html>

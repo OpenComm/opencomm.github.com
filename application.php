@@ -20,6 +20,10 @@
 				<input type="text" name="major" />
 			</li>
 			<li>
+				<p>Email:</p>
+				<input type="text" name="email"/>
+			</li>
+			<li>
 				<p>Resume:</p>
 				<p>*Please attach your resume in .doc or .pdf format.</p>
 				<input type="file" name="resume"/>

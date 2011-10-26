@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+Name       : Domesticated
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20100701
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>OpenComm</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <script type="text/javascript" src="jquery/jquery-1.4.2.min.js">
+        </script>
+        <script type="text/javascript" src="jquery/jquery.slidertron-0.1.js">
+        </script>
+        <script type="text/javascript">
+            function setWrapperHeight(){
+                colheight = document.getElementsByClassName("col1")[0].offsetHeight;
+                document.getElementById("three-columns").style.height = colheight + "px";
+                document.getElementsByClassName("col2")[0].style.height = (colheight - 50) + "px";
+            }
+        </script>
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/tallwrapper.css" rel="stylesheet" type="text/css" media="screen" />
+        <style type="text/css">
+        </style>
+    </head>
+    <body onload="javaript:setWrapperHeight();">
+    <!-- end #header-wrapper -->
+    <div id="header">
+        <div id="logo">
+            <h1><a href="index.html">OpenComm</a></h1>
+            <p>
+                <img src="" alt="" />
+            </p>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <a href="index.html" class="first">Homepage</a>
+                </li>
+                <li>
+                    <a href="features.html">Features</a>
+                </li>
+                <li>
+                    <a href="demo.html">Demos</a>
+                </li>
+                <li>
+                    <a href="awards.html">Awards</a>
+                </li>
+                <li class="current_page_item">
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li>
+                    <a href="join.html">Join Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- end #menu -->
+    </div>
+    <!-- end #header --><hr/>
+    <div id="wrapper">
+        <!-- end #logo -->
+        <div id="three-columns">
+            <div class="col1">
+                <div id="foobar">
+                    <div class="viewer">
+                        <h2>About Us</h2>
+                        <p>
+                            Founded by Professor Grmae Bailey and Makoto Bentz '10, M.Eng. '11, 
+                            our research team aims to investigate the issues with the status quo in
+                            multi-user communications and to implement front-end changes that correspond to new
+                            capabilities presented on the backend. A key backend that we've chosen to focus on
+                            is VoIP (Voice over IP), which has revolutionized user-to-user communications
+                            by allowing real-time voice communication. However, on the front-end, most companies have
+                            resigned themselves to simply re-implementing a phone, giving the capabilities
+                            to dial a contact, voicemail, and call forwarding. While these
+                            back-end-to-front-end technologies made sense to develop in the physical world, with
+                            market instituted limitations on what users were willing to pay for;
+                            with software one can implement new solution at little to no fixed costs to the end user.
+                            As such, we chose to focus on our development work upon currently existing backend technologies
+                            such as XML and NAT, and to build a better software front end to them.
+                        </p>
+                        <h2>Our Team Structure</h2>
+                        <p>
+                            Project Advisor: Professor Greme Bailey (website)
+                            Project Leader: Risa Naka '11, M.Eng '12 (email)
+                            Human-Computer Interaction (HCI) Design: Design a user experience that improves
+                            the current online conference experience
+                            Human-Computer Interaction Security (HCISec): Design and implement a mobile application security system
+                            Software Development: Implement the software designed by the Design team
+                            Publication: Design and implement the team website; Manage creation of publication materials (research papers,
+                            user manuals, posters, presentation demos)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <img src="" alt=""/>
+            </div>
+        </div>
+    </div><!-- end #page -->
+    </div>
+    <div id="footer">
+        <p>
+            Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">CSS Templates</a>.
+        </p>
+    </div>
+    <!-- end #footer -->
+</body>
+</html>
