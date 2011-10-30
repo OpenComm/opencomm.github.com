@@ -1,5 +1,5 @@
 #foobar {
-    width: 540px;
+    width: 600px;
     height: 385px;
     position: relative;
 }
@@ -24,7 +24,7 @@
 }
 
 #foobar .viewer {
-    width: 540px;
+    width: 600px;
     height: 385px;
 }
 
