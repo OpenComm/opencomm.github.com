@@ -35,7 +35,6 @@ h3 {
 p, ul, ol {
 	margin-top: 0;
 	line-height: 200%;
-	text-align: justify;
 }
 
 ul, ol {
@@ -209,6 +208,11 @@ hr {
 	width:100%;			/* width of whole page 
 	overflow:hidden;		/* This chops off any overhanging divs 
 	*/
+}
+
+#page h1 {
+	text-align:center;
+	color: #FFAB63;
 }
 
 /** LOGO */
@@ -404,7 +408,7 @@ hr {
 	text-transform: capitalize;
 	font-size: 24px;
 	font-weight: normal;
-	color: #FFAB63;
+	color: #94C4FF;
 }
 
 #right p, #left p, #middle p {
