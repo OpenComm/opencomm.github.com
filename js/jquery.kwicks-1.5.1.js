@@ -25,7 +25,7 @@
 		
 		return this.each(function() {
 			container = $(this);
-			var kwicks = container.children('li');
+			var kwicks = container.children('a');
 			var normWoH = kwicks.eq(0).css(WoH).replace(/px/,''); // normWoH = Normal Width or Height
 			if(!o.max) {
 				o.max = (normWoH * kwicks.size()) - (o.min * (kwicks.size() - 1));

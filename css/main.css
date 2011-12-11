@@ -475,7 +475,6 @@ hr {
     margin: 0;
     padding: 30px 0px 0px 30px;
     text-align: center;
-    text-transform: capitalize;
     line-height: normal;
     font-size: 14px;
 }
@@ -557,22 +556,18 @@ body {
 }
 
 #kwick_1 {
-    background-color: #53b388;
     background-image: url('../images/Icons.png');
 }
 
 #kwick_2 {
-    background-color: #5a69a9;
     background-image: url('../images/StartConference.png');
 }
-
+ 
 #kwick_3 {
-    background-color: #c26468;
     background-image: url('../images/Poptip.png');
 }
 
 #kwick_4 {
-    background-color: #bf7cc7;
     background-image: url('../images/volume.png');
     margin: none;
 }
@@ -586,6 +581,7 @@ a.demolink {
     left: 30px;
 	text-decoration:none;
 }
+
 
 a.demolink:hover {
 	color: #3066A6;
