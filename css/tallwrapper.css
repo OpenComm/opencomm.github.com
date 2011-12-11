@@ -12,6 +12,7 @@
 
 #three-columns .col1 p{
 	color: white;
+	font-size: 14px;
 }
 
 #three-columns h2 {
@@ -40,6 +41,10 @@
 
 #three-columns .col2 a {
 	color: #3066A6;
+}
+
+span.highlight {
+	color: #FFAB63;
 }
 
 #foobar

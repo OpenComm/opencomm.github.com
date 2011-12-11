@@ -10,7 +10,6 @@ body {
 	padding: 0;
 	background: #1C1C1C;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
 	color: #919191;
 }
 
@@ -23,10 +22,6 @@ h1, h2, h3 {
 
 h1 {
 	font-size: 44px;
-}
-
-h2 {
-	font-size: 18px;
 }
 
 h3 {
@@ -210,9 +205,11 @@ hr {
 	*/
 }
 
-#page h1 {
+#page h2 {
 	text-align:center;
 	color: #FFAB63;
+	font-size: 30px;
+	margin: -10px 0px 0px 0px;
 }
 
 /** LOGO */
@@ -400,19 +397,17 @@ hr {
 	padding: 0px 0px;
 }
 
-#right h2, #left h2, #middle h2 {
+#page h3 {
 	height: 30px;
 	margin: 0 0 30px 0px;
-	padding: 6px 0px 2px 0px;
-	border-bottom: 1px solid #292929;
-	text-transform: capitalize;
-	font-size: 24px;
-	font-weight: normal;
+	padding: 25px 0px 2px 0px;
+	border-bottom: 2px solid #292929;
+	text-align: center;
 	color: #94C4FF;
 }
 
-#right p, #left p, #middle p {
-	line-height: 200%;
+#page p {
+	font-size: 14px;
 }
 
 #right a, #left a, #middle a {
