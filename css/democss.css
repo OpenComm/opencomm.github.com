@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+.slideshow li {
+    /* these are required, but the values are up to you (must be pixel) */
+    width: 100px;
+    height: 385px;
+    float: left;
+    /*do not change these */
+    display: block;
+    overflow: hidden;
+    padding: 0; /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+
+#kwick_1 {
+    background-image: url('../images/slider/Icons.png');
+}
+
+#kwick_2 {
+    background-image: url('../images/slider/StartConference.png');
+}
+ 
+#kwick_3 {
+    background-image: url('../images/slider/Poptip.png');
+}
+
+#kwick_4 {
+    background-image: url('../images/slider/volume.png');
+}
+
+#kwick_5 {
+    background-image: url('../images/slider/Invite.png');
+}
+
+#kwick_6 {
+    background-image: url('../images/slider/Admin.png');
+    margin: none;
+}
+
+blockquote.demodescription {
+	visibility: hidden;
+}
+

@@ -29,9 +29,16 @@ Released   : 20100701
             @import "css/slidertron.css";
         </style>
         <script type="text/javascript">
+            function setWrapperHeight(){
+                colheight = document.getElementsByClassName("col1")[0].offsetHeight;
+                document.getElementById("three-columns").style.height = colheight + "px";
+                document.getElementsByClassName("col2")[0].style.height = (colheight - 50) + "px";
+            }
+            
             $().ready(function(){
                 $('.slideshow').kwicks({
                     max: 231,
+                    sticky: true,
                     spacing: 0
                 });
             });
@@ -79,16 +86,28 @@ Released   : 20100701
                         <div class="viewer">
                             <ul class="slideshow">
                                 <li id="kwick_1">
-                                    <a class="demolink" href="demo.html">ARRANGE <br/>USERS</a>
+                                    <a class="demolink" href="demosoundspacialize.html">ARRANGE 
+                                        <br/>
+                                        USERS
+                                    </a>
                                 </li>
                                 <li id="kwick_2">
-                                    <a class="demolink" href="demo.html">EASY <br/>SETUP</a>
+                                    <a class="demolink" href="demostartconference.html">EASY 
+                                        <br/>
+                                        SETUP
+                                    </a>
                                 </li>
                                 <li id="kwick_3">
-                                    <a class="demolink" href="demo.html">GET <br>HELP</a>
+                                    <a class="demolink" href="demotips.html">GET 
+                                        <br>
+                                        HELP
+                                    </a>
                                 </li>
                                 <li id="kwick_4">
-                                    <a class="demolink" href="demo.html">SOUND<br/>CONTROL</a>
+                                    <a class="demolink" href="demosoundsettings.html">SOUND
+                                        <br/>
+                                        CONTROL
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -96,9 +115,9 @@ Released   : 20100701
                 </div>
                 <div class="col2">
                     <blockquote>
-                        The most engaging and life-like video conference you will ever experience.
+                        The most engaging video conference you will ever experience on Android.
                     </blockquote>
-                    <a href="demo.html">Find out more.</a>
+                    <a href="features.html">Find out more.</a>
                 </div>
             </div>
         </div>
@@ -108,7 +127,7 @@ Released   : 20100701
                 <div id="left">
                     <div class="post">
                         <div class="postheader">
-                            <img src="images/VolumeIcon.png" alt="volume"/><h3>Sound Spacialization</h3>
+                            <img src="images/VolumeIcon.png" alt="volume"/><h3><a href="demosoundspacialize">Sound Spacialization</a></h3>
                         </div>
                         <p>
                             Virtually control the layout of your conference and hear the conference as if everyone is in an actual meeting room.
@@ -121,7 +140,7 @@ Released   : 20100701
                 <ul>
                     <li>
                         <div class="postheader">
-                            <img src="images/AcceptPlus.png" alt="add side chat" /><h3>Side Chats</h3>
+                            <img src="images/AcceptPlus.png" alt="add side chat" /><h3><a href="demosidechats">Side Chats</a></h3>
                         </div>
                         <p>
                             Start simultaneous private conversations to separately discuss the conference, plan ahead with a partner, or just for fun. 
@@ -134,7 +153,7 @@ Released   : 20100701
                 <ul>
                     <li>
                         <div class="postheader">
-                            <img src="images/arrow.png" alt="start chat"/><h3>Accessibility</h3>
+                            <img src="images/arrow.png" alt="start chat"/><h3><a href="demomoderator">Accessibility</a></h3>
                         </div>
                         <p>
                             You can have complete and unrestricted control over the conference with our user-friendly layout.
@@ -151,8 +170,9 @@ Released   : 20100701
         <div id="footer">
             <p>
                 Copyright (c) 2011 http://opencomm.github.com/home.html. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">CSS Templates</a>.
-            	<br/><a href="CUOpenComm@gmail.com">CUOpenComm@gmail.com</a>
-			</p>
+                <br/>
+                <a href="CUOpenComm@gmail.com">CUOpenComm@gmail.com</a>
+            </p>
         </div>
         <!-- end #footer -->
     </body>

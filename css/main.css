@@ -212,6 +212,8 @@ hr {
     height: 45px;
     margin: 0 auto;
     padding-top: 5px;
+	position:relative;
+	left: 26px;
 }
 
 #logo h1, #logo p {
@@ -402,11 +404,11 @@ hr {
     font-size: 14px;
 }
 
-#right a, #left a, #middle a {
+#page a {
     text-align: left;
     text-decoration: none;
     font-weight: bold;
-    color: #666666;
+    color: white;
 }
 
 /* Calendar */
@@ -546,7 +548,7 @@ body {
 
 .slideshow li{
     /* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
-    margin-right: 5px; /*Set to same as spacing option. */
+   /* margin-right: 5px; /*Set to same as spacing option. */
     float: left;
 }
 
@@ -556,19 +558,27 @@ body {
 }
 
 #kwick_1 {
-    background-image: url('../images/Icons.png');
+    background-image: url('../images/slider/Icons.png');
 }
 
 #kwick_2 {
-    background-image: url('../images/StartConference.png');
+    background-image: url('../images/slider/StartConference.png');
 }
  
 #kwick_3 {
-    background-image: url('../images/Poptip.png');
+    background-image: url('../images/slider/Poptip.png');
 }
 
 #kwick_4 {
-    background-image: url('../images/volume.png');
+    background-image: url('../images/slider/volume.png');
+}
+
+#kwick_5 {
+    background-image: url('../images/slider/Invite.png');
+}
+
+#kwick_6 {
+    background-image: url('../images/slider/Admin.png');
     margin: none;
 }
 
