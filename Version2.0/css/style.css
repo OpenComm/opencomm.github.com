@@ -1,0 +1,105 @@
+/* Basic elements styling that has been resetted */
+
+body{
+	font-size: 14px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h4{
+	font-size: 20px;
+}
+
+h5{
+	font-size: 16px;
+}
+
+h6{
+	font-size: 14px;
+}
+
+/* End of - Basic elements styling that has been resetted */
+
+/* ------------- Start Container specific styling */
+
+/* Classes which i like to use for every project */
+
+.container {
+	width:960px;
+}
+
+.redbordered {
+	border: red 1px solid;
+}
+
+.blackbordered {
+	border: black 1px solid;
+}
+
+.middle {
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clearfloat{
+	clear:both;
+	overflow: hidden;
+}
+
+.roundedcorners {
+	-moz-border-radius: 10px; /* Firefox */
+	-webkit-border-radius: 10px; /* Safari, Chrome */
+	-khtml-border-radius: 10px; /* KHTML based browsers */
+	border-radius: 10px; /* CSS3 */
+}
+
+
+.relative{
+	position: relative;
+}
+
+.textleft{
+	text-align:left;
+}
+
+.textright{
+	text-align: right;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+.textjustify{
+	text-align: justify;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+a{
+	color: inherit;
+}
+
+a:hover{
+	color: #ad1c20;
+}

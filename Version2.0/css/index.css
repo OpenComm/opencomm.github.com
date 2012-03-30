@@ -1,0 +1,58 @@
+body{
+	background:#f7f7f7 url(../images/pattern.png) repeat top left;
+	font-family: Helvetica;
+	font-size:12px;
+}
+
+#logo{
+	margin-top: 20px;
+}
+
+#logo h1{
+	font-size: 36px;
+}
+
+#gallery{
+	background-color: gray;
+	height: 200px;
+}
+
+#pitch{
+	margin-top: 20px;
+}
+
+#pitch h2{
+	font-size: 26px;
+}
+
+#description{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#description h2{
+	font-size: 22px;
+}
+
+#description p{
+	font-size: 16px;
+	text-align: justify;
+	margin-top: 5px;
+}
+
+footer div{
+	background-color: black;
+	color: white;
+}
+
+#footer-nav{
+}
+
+#footer-nav h5{
+	color:#ffc515;
+}
+
+#footer-nav ul li{
+	float: left;
+	margin-left: 25px;
+}

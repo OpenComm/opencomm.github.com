@@ -1,0 +1,28 @@
+/* IE6 css fixer v0.95: Tue, 08 Feb 2011 18:13:46 +0100 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+.left,
+.right,
+#footer ul li {display:inline;}
+
+/* add zoom:1 to overflow:hidden */
+.clearfloat {zoom:1;}
+
+/* add zoom:1 to pos:relative elements */
+.relative,
+#couponcode,
+#cityname,
+#ribbon,
+.searchbox form button,
+#signupbox span,
+#shareurlove {zoom:1;}
+
+/* add transparancy */
+#searcharea {filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);}
+
+
+/* add overflow:visible to (submit) buttons */
+ input, button {overflow:visible;}

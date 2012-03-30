@@ -1,0 +1,22 @@
+body{
+	background:#f7f7f7 url(../images/pattern.png) repeat top left;
+	color:#000;
+	font-family:'Georgia', 'Trebuchet MS', serif;
+	font-size:12px;
+}
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+
+.clr{
+	clear:both;
+}
+
+.container {
+	width:100%;
+	position:relative;
+	z-index:100;
+	margin:0 auto;
+}
