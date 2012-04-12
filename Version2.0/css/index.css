@@ -9,12 +9,13 @@ body{
 }
 
 #logo h1{
-	font-size: 36px;
+	font-size: 44px;
 }
 
 #gallery{
+    margin-top: 20px;
 	background-color: gray;
-	height: 200px;
+	height: 300px;
 }
 
 #pitch{
@@ -27,11 +28,7 @@ body{
 
 #description{
 	margin-top: 20px;
-	margin-bottom: 10px;
-}
-
-#description h2{
-	font-size: 22px;
+	margin-bottom: 20px;
 }
 
 #description p{
@@ -39,6 +36,11 @@ body{
 	text-align: justify;
 	margin-top: 5px;
 }
+
+#description h3{
+	color:black;
+}
+
 
 footer div{
 	background-color: black;
