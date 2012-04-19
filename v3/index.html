@@ -8,7 +8,7 @@
  
   	<meta charset="utf-8">
 
-  	<title>OpenComm - The most engaging audio conference you will ever experience on Android.</title>
+  	<title>OpenComm - The most realistic and intuitive audio conferencing system you will ever experience on Android.</title>
 	<meta name="keywords" content="Opencomm, audio conference, android, cornell, bailey, xmpp" />
     <meta name="description" content="OpenComm - The most engaging audio conference you will ever experience on Android." />
     <meta name="author" content="OpenComm Team">
@@ -48,6 +48,7 @@
   </head>
 
   <body>
+	<!-- HOME -->
     <div class="container" id="main">
        	<div class="row">
     		<div class="span12" id="logo">
@@ -55,7 +56,7 @@
     		</div>
        	</div>
        	<div class="row">
-    		<h2 class="span12" id="punchline">The most engaging audio conference you will ever experience on Android. </h2>
+    		<h2 class="span12" id="punchline">The most realistic and intuitive audio conferencing system you will ever experience on Android.</h2>
        	</div>
        	<div class="row">
        		<div class="span1" style="visibility:hidden">Navbar</div>
@@ -105,9 +106,14 @@
      			</div>
 			</div>
        	</div>
+       	<div class="row">
+    		<div class="span11" style="margin-left:80px;text-align:justify;">
+    			<p id="download">Interested to try our product, Mail us at <a href="mailto:CUOpenComm@gmail.com">cuopencomm@gmail.com</a></>
+    		</div>
+       	</div>
     </div>
     
-    
+    <!-- FEATURES -->
     <div class="container" id="features">
     	<div class="row">
        		<div class="span1" style="visibility:hidden">Navbar</div>
@@ -127,39 +133,39 @@
        			<h2>What makes us Unique?</h2>
        		</div>
        	</div>
+       	
        	<div class="row">
-       		<div class="span6" style="margin-left:60px; text-align:justify;">
-       			<p>OpenComm is an Android application that strives to make communication through phones as intuitive as possible via 					an advanced user experience and sound spatialization.</p>
-
-				<p>While face-to-face interaction is the preferred method of conversation, sometimes it is simply impossible to have 					everyone together in the same room. The standard solution is to hold your meeting by conference call. However, a 					conference call creates many problems that are not present in an actual meeting. Users are unable to discuss 						matters confidentially or to split into group discussions before making a final decision. </p>
+       		<div class="span11" id="features-description">
+       			<p>OpenComm introduces sound spatialization and side chats to create audio conferencing experiences not offered by competitors. Based on the regions of the users’ icons, we account for interaural time difference and volume difference when transmitting sound. Our algorithms are masked by a seamless user interface and supported by back-end technologies.</p>
        		</div>
-       		<div class="span5" style="border:1px solid red; height:165px;">
+       	</div>
+       	
+       	<div class="row">
+       		<div class="span6" style="margin-left:80px; text-align:justify;">
+       			<h3>Sound Spacialization</h3>
+       			<p>Virtually control the layout of your conference and hear the conference as if everyone is in an actual meeting room.</p>
+       			<h3>SideChats</h3>
+       			<p>Start simultaneous private conversations to separately discuss the conference, plan ahead with a partner, or just for fun. </p>
+				<h3>Control</h3>
+       			<p>You can have complete and unrestricted control over the conference with our user-friendly layout. </p>
+       			
+       			<h3>Technologies Used</h3>
+				<ul>
+					<li><h3>User Interface:</h3> Java and Android emulator using Android Virtual Device (AVD)</li>
+					<li><h3>XMPP:</h3> Backbone of the project. Used for connection, multi-user chat room management, and session negotiation. Implemented using the Asmack library.</li>
+					<li><h3>RTP:</h3> Standardized packet format for delivering audio. RTP is not included in Android 2.2, so we use our own implementation.</li>
+					<li><h3>Jingle (extension of XMPP protocol):</h3> Used for multimedia audio session negotiation. Customized library.</li>
+					<li><h3>Openfire server:</h3> Self-hosted solution with database and LDAP connectivity.</li>
+       			</ul>
+       		</div>
+       		<div class="span5" style="border:1px solid red;">
        		
        		</div>
        	</div>
-       	<div class="row">
-       		<div class="span5" style="border:1px solid red; height:165px;margin-left:60px;">
-       		
-       		</div>
-       		<div class="span6" style="text-align:justify;">
-       			<p>OpenComm is an Android application that strives to make communication through phones as intuitive as possible via 					an advanced user experience and sound spatialization.</p>
-
-				<p>While face-to-face interaction is the preferred method of conversation, sometimes it is simply impossible to have 					everyone together in the same room. The standard solution is to hold your meeting by conference call. However, a 					conference call creates many problems that are not present in an actual meeting. Users are unable to discuss 						matters confidentially or to split into group discussions before making a final decision. </p>
-       		</div>
-       	</div>
-       	<div class="row">
-       		<div class="span6" style="margin-left:60px; text-align:justify;">
-       			<p>OpenComm is an Android application that strives to make communication through phones as intuitive as possible via 					an advanced user experience and sound spatialization.</p>
-
-				<p>While face-to-face interaction is the preferred method of conversation, sometimes it is simply impossible to have 					everyone together in the same room. The standard solution is to hold your meeting by conference call. However, a 					conference call creates many problems that are not present in an actual meeting. Users are unable to discuss 						matters confidentially or to split into group discussions before making a final decision. </p>
-       		</div>
-       		<div class="span5" style="border:1px solid red; height:165px;">
-       		
-       		</div>
-       	</div>
-
     </div>
     
+    
+    <!-- AWARDS -->
     <div class="container" id="awards">
     	<div class="row">
        		<div class="span1" style="visibility:hidden">Navbar</div>
@@ -174,16 +180,27 @@
 			</div>
 			<div class="span1"></div>
        	</div>
+       	
        	<div class="row">
-       		<div class="span6" style="margin-left:60px; text-align:justify;">
-       			<h2>Awards</h2>
-       			<p>OpenComm is an award-winning team with a great group dynamic and support from several faculty members. Our work on 					sound spacialization is a particular point of interest and is one of the aspects that make OpenComm a unique tool 					for audio conferences.</p>
-
-				<p>"BOOM is an annual showcase of student research and creativity in digital technology and applications. It's an 						opportunity for Cornell undergraduate and Master's-level students to show their best work in cutting-edge 							technologies to the public and the Cornell community." - Cornell BOOM 2011 Last year. OpenComm received the Cisco 					Pioneer Award and GE Imagination in IT Award.</p>
+       		<div class="span12" id="boom">
+    			<img src="assets/img/boom12.png">
+    		</div>
+       	</div>
+       	
+       	<div class="row" id="awards-description">
+       		<div class="span11" style="margin-left:80px;text-align:justify;">
+       			<p>OpenComm is an award-winning team with a great group dynamic and support from several faculty members. Our work on sound spacialization is a particular point of interest and is one of the aspects that make OpenComm a unique tool for audio conferences.</p> <p><a href ="www.boom.cornell.edu">BOOM</a> Bits On Our Minds is an annual showcase of student research and creativity in digital technology and applications. It’s an opportunity for Cornell undergraduate and Master’s-level students to show their best work in cutting-edge technologies, and past displays have included iPhone applications, video games, and robotics.</p>
        		</div>
+       	</div>
+       	
+       	<div class="row">
+       		<div class="span12" id="boom">
+    			<img src="assets/img/boom11.png">
+    		</div>
        	</div>
     </div>
     
+    <!-- ABOUT -->
     <div class="container" id="about">
     	<div class="row">
        		<div class="span1" style="visibility:hidden">Navbar</div>
@@ -199,12 +216,76 @@
 			<div class="span1"></div>
        	</div>
        	<div class="row">
-       		<div class="span6" style="margin-left:60px; text-align:justify;">
-       			<h2>About Us</h2>
-       			<p>Founded by Professor Graeme Bailey and Makoto Bentz '10, M.Eng. '11, our research team aims to add exciting 							functions to the status quo in multi-user communications and to implement front-end changes to reflect these 						changes.</p>
+       		<div class="span12" id="team">
+    			<img src="assets/img/team.png">
+    		</div>
+       	</div>
+       	<div class="row">
+       		<div class="span7" id="about-description">
+       			<h3>History</h3>
+       			<p>The idea for OpenComm was incepted by Professor Graeme Bailey of the Computer Science department over 6 years ago. The team was founded by Makoto Bentz ‘11 in 2009.</p>
+       			<h3>Since August 2011</h3>
+       			<p>The focus of the team has switched from research to implementation. We have developed a full Android application this year and are discussing commercialization.</p>
+       			<h3>Future Work</h3>
+       			<p>The team will continue to refine the Android application and perhaps explore working with other platforms. We hope to determine to which fields this technology could be beneficial.</p>
+       		</div>
+       		
+       		<div class="span4" style="margin-top:10px;">
+       			<h3>Market-Advantages</h3>
+				<ul id="market-adv">
+       				<li>Useful for group projects & meetings</li>
+       				<li>More convenient than Video chat when on the go</li>
+       				<li>Maintains professionalism</li>
+       				<li>Serves as a way to split up and reconvene meetings</li>
+       				<li>Achieves goals not met by competitors</li>
+       			</ul>
+       		</div>
 
-				<p>We've focused on VoIP (Voice over IP), which has revolutionized user-to-user communications by allowing real-time 					voice communication. On the front-end, most companies have resigned themselves to simply re-implementing a phone, 					giving the capabilities dial a contact, voicemail, and call forwarding. While these technologies made sense to 						develop in the physical world, with software one can implement new solutions at little to no fixed costs to 						users.</p>
-				<p>We chose to focus our development work upon currently existing backend technologies such as XML and NAT and build a 					better software front end with them. </p>
+       	</div>
+    </div>
+    
+    <!-- Join Us -->
+    <div class="container" id="join">
+    	<div class="row">
+       		<div class="span1" style="visibility:hidden">Navbar</div>
+			<div class="span10">
+				<ul id="nav">
+  				<li><a href="#main">Home</a></li>
+ 			 	<li><a href="#features">Features</a></li>
+  				<li><a href="#awards">Awards</a></li>
+  				<li><a href="#about">About</a></li>
+  				<li class="selected"><a href="#join">Join-Us</a></li>
+				</ul>
+			</div>
+			<div class="span1"></div>
+       	</div>
+       	<div class="row">
+    		<div class="span12" id="logo">
+    			<img src="assets/img/logo.png">
+    		</div>
+       	</div>
+       	<div class="row">
+    		<h2 class="span12" id="punchline">The most realistic and intuitive audio conferencing system you will ever experience on Android.</h2>
+       	</div>
+       	<div class="row">
+       		<div class="span11" id="join-description">
+       			<p>Come research for credit with OpenComm, an award-winning Human-Computer Interaction (HCI) and Security (HCISec) group working with Professor Graeme Bailey to develop new design and security concepts for real time communication. </p>
+       			<h3>If you're interested in:</h3>
+       			<ul>
+       				<li>Human-Computer Interaction (HCI) Design and Security (HCISec)</li>
+   			 		<li>Taking research for 1-4 credits (MEng Project applicable)</li>
+    				<li>Designing concepts for real time communication.</li>
+       				<li>Management experience</li>
+    				<li>Working with Professor Graeme Bailey</li>
+    				<li>Rapid software development</li>
+    				<li>Experience with a team of both graduate and undergraduate students</li>
+   				</ul>
+   				<p>We welcome Cornell undergraduate and graduate students from all majors and all levels of experience. Contact our project leader Risa Naka at <a href="mailto:CUOpenComm@gmail.com">cuopencomm@gmail.com</a> to schedule an interview.</p>
+       		</div>
+       	</div>
+       	<div class="row">
+       		<div class="span12" id="footer">
+       			<p>Copyright (c) 2012 http://opencomm.github.com/.All rights reserved.</p>
        		</div>
        	</div>
     </div>

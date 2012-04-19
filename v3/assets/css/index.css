@@ -5,13 +5,17 @@
 	background-color: white;
 }
 
+p,ul{
+font-size: 16px;
+}
+
 #punchline{
   text-align:center;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-#logo{
+#logo, #team, #boom,#download{
     margin:0 auto;
     margin-top: 10px;
     text-align:center;
@@ -58,3 +62,39 @@
 #features, #awards, #about, #join, #demo{
 	margin-top: 100px;
 }
+
+#boom{
+	margin-bottom: 10px;
+}
+
+#download{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+#about-description, #join-description, #features-description{
+	margin-left:80px; 
+	margin-top:10px; 
+	text-align:justify;
+}
+
+#join-description ul, #about-description ul{
+	font-size: 16px;
+}
+
+#market-adv li{
+	margin-top:5px;
+}
+
+#footer{
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+}
+
+#footer p{
+	margin: 10px;
+	text-align:center;
+}
+
+
