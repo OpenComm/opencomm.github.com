@@ -74,12 +74,16 @@ text-align: justify;
 	border:1px solid #ccc;
 }
 
-#download{
+#download, #download1, #interested, #awards{
+  font-size: 22px;
+}
+
+.bigmiddle{
 	font-size: 22px;
 }
 
 #team img{
-width: 100%;
+  width: 100%;
 }
 
 #boom img{
