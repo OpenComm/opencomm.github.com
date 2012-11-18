@@ -15,7 +15,7 @@ body {
 </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 	<div class="navbar navbar-inverse navbar-fixed-top">
     	<div class="navbar-inner">
         	<div class="container">
@@ -36,11 +36,11 @@ body {
 	<div class="container">
     	<div class="hero-unit">
         	<h1>Better Audio Conferencing</h1>
-            <p>Through innovations like sound spatialization and private side chats, we can make audio conferencing less confusing and more engaging.</p>
+            <p>Make your audio conferences more engaging and less confusing with sound spatialization, side chats, and more, all on your Android</p>
             <p><a href="#features" class="btn btn-primary btn-large">Find out more</a></p>
         </div>
         
-        <section id="features">
+        <section id="features" >
             <div class="page-header">
                 <h1>Features <small>What makes OpenComm different?</small></h1>
             </div>
@@ -52,36 +52,71 @@ body {
                 <div class="span6"><p> Side chats are separate conversations with people in the conference, where you can plan ahead for the conference or talk about private or sensitive subjects. You can easily go in by simply selecting the side chat and then go out by selecting another side chat or the main conference icon.  </p></div>
             </div>
             <div class="row">
-                <div class="span12"><h3>Tips</h3></div>
+                <div class="span12"><h3>Quick Setup</h3></div>
             </div>
             <div class="row">
-                <div class="span12"><p>Don't worry if you think you will feel lost when first using our application. From the beginning, there will be tips to guide you through the process of setting up a conference and adding contacts into it.</p></div>
+                <div class="span12"><p>Getting started with OpenComm is easy. Once installed on your phone, the app synchronizes with the contacts already available on your phone.</p></div>
             </div><hr />
-                    <div class="row">
+            <!--        <div class="row">
         	<div class="span5"><img class="img-rounded" alt="" src="grey-spacer.png" width="550" height="550"></div>
             <div class="span7"><h4>Feature Demo</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie. Morbi dapibus posuere placerat. Cras eu vestibulum nibh. Duis consequat, lacus eu consequat congue, sem libero adipiscing nibh, quis cursus enim turpis sagittis massa. Nunc sed leo elit. Mauris fermentum nunc sed arcu mattis vehicula.</p></div>
-        </div>
+        </div> -->
         </section>
         
         <section id="team">
         <div class="page-header"><h1>About Us <small>Who's behind OpenComm?</small></h1></div>
         <div class="row">
-        	<div class="span12"><h3>The Team</h3></div>
+        	<div class="span2"><h3>The Team</h3></div>
+            <div class="span10" style="padding-top:15px"><button href="#myModal" role="button" data-toggle="modal" class="btn btn-primary">See The Team Members</button></div>
         </div>
         <div class="row">
         	<div class="span12"><p> Founded by Cornell Professor Graeme Bailey and Makoto Bentz '10, M.Eng. '11, our research team aims to add exciting functions to the status quo in multi-user communications and to implement front-end changes to reflect these changes.</p><p>We've focused on VoIP (Voice over IP), which has revolutionized user-to-user communications by allowing real-time voice communication. On the front-end, most companies have resigned themselves to simply re-implementing a phone, giving the capabilities dial a contact, voicemail, and call forwarding. While these technologies made sense to develop in the physical world, with software one can implement new solutions at little to no fixed costs to users.</p><p>We chose to focus our development work upon currently existing backend technologies such as XML and NAT and build a better software front end with them.</p></div>
         </div>
-         <hr />
+        <br />
         <div class="row">
-        	<div class="span2"><img class="img-polaroid" alt="" src="grey-spacer.png" width="130" height="130"></div>
-            <div class="span4"><h4>Professor Graeme Bailey <small>Advisor</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
-            <div class="span2"><img class="img-polaroid" alt="" src="grey-spacer.png" width="130" height="130"></div>
-            <div class="span4"><h4>Risa Naka <small>Project Leader</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
+        	<div class="span2"><img class="img-polaroid" alt="Professor Graeme Bailey" src="bailey.jpg" width="130" height="130"></div>
+            <div class="span4"><h4>Professor Graeme Bailey <small>Advisor</small></h4><p>Professor Bailey was born and raised in England, and studied, taught and researched both in England and in France before coming to the U.S. He has been at Cornell since 1986 and is professionally interested in life in 2, 3 and 4 dimensions.</p></div>
+            <div class="span2"><img class="img-polaroid" alt="Risa Naka" src="risa.jpg" width="130" height="130"></div>
+            <div class="span4"><h4>Risa Naka <small>Project Leader</small></h4><p>Risa is a Master of Engineering student at Cornell University, where she receivede her bachelor's degree. She has successfully led the OpenComm team since July 2011.</p></div>
         </div>
-        <div class="row">
-        	<div class="span8">&nbsp;</div>
-            <div class="span4"><button class="btn btn-primary">See The Team Members</button></div>
-        </div>
+                    <!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h3 id="myModalLabel">The OpenComm Team</h3>
+</div>
+<div class="modal-body">
+<table class="table">
+	<tr><th>Name</th><th>Team</th><th>Position</th></tr>
+    <tr><td>Alin Barsan</td><td>Back-End (Network)</td><td>Member</td></tr>
+    <tr><td>Ankit Singh</td><td>Front-End/HCI Design</td><td>Member</td></tr>
+    <tr><td>Annie Edmundson</td><td>Back-End (Security)</td><td>Security Lead</td></tr>
+    <tr><td>Ashley Sams</td><td>Publications &amp; Design</td><td>Publications &amp; Design Lead</td></tr>
+    <tr><td>Brian O'Connor</td><td>Backend</td><td>Member</td></tr>
+    <tr><td>Crystal Qin</td><td>Database &amp; Publications</td><td>Member</td></tr>
+    <tr><td>Divya Singhvi</td><td>Back-End (Security)</td><td>Member</td></tr>
+    <tr><td>Heming Ge</td><td> Front-End</td><td>Member</td></tr>
+    <tr><td>Joey Triska</td><td>Design</td><td>Member</td></tr>
+    <tr><td>Kevin Chen</td><td> iOS Developer (Debugging)</td><td>Member</td></tr>
+    <tr><td>Kevin Lei</td><td> Back-End (Security)</td><td>Member</td></tr>
+    <tr><td>Kris Kooi</td><td> Back-end (audio, server)</td><td>Member</td></tr>
+    <tr><td>Natalie Lin</td><td>Publications</td><td>Member</td></tr>
+    <tr><td>Neelesh Bagga</td><td> Back-End (Network)</td><td>Member</td></tr>
+    <tr><td>Nora Ng-Quinn</td><td> Front-end</td><td>Member</td></tr>
+    <tr><td>Paul Menchov</td><td>Publications</td><td>Member</td></tr>
+    <tr><td>Qiming Fang</td><td>iOS</td><td>Member</td></tr>
+    <tr><td>Sauhard Bindal</td><td> iOS Developer (UI)</td><td>Member</td></tr>
+    <tr><td>Shihui Song</td><td> iOS</td><td>Member</td></tr>
+    <tr><td>Somya Singhvi</td><td> Back-End (Security)</td><td>Member</td></tr>
+    <tr><td>Spandana Govindgari</td><td> Front-End</td><td>Member</td></tr>
+    <tr><td>William Chan</td><td> Design</td><td>Member</td></tr>
+    <tr><td>Yiyi Chen</td><td>iOS</td><td>Member</td></tr>
+</table>
+</div>
+<div class="modal-footer">
+<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+</div>
+</div>
         <hr />
         <div class="row">
         	<div class="span12"><h3>Awards</h3></div>
@@ -89,17 +124,17 @@ body {
         <div class="row">
         	<div class="span12"><p>OpenComm is an award-winning team with a great group dynamic and support from several faculty members. Our work on sound spatialization is a particular point of interest and is one of the aspects that make OpenComm a unique tool for audio conferences.</p><p>OpenComm has won several awards at BOOM, an annual showcase of student research in digital technology at Cornell University. In 2011, OpenComm won the Cisco Pioneer Award and the GE Imagination in IT Award. In 2012, OpenComm won the Cisco Innovation Award, Bank of America Merill Lynch Technology Award, and Goldman Sachs Award.</p></div> 
         </div>
-        <hr />
+        <br />
                 <div class="row">
-        	<div class="span2"><img class="img-polaroid" alt="" src="grey-spacer.png" width="130" height="130"></div>
+        	<div class="span2"><img class="img-polaroid" alt="" src="cisco.png" width="130" height="130"></div>
             <div class="span4"><h4>Cisco Pioneer Award <small>2011</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
-            <div class="span2"><img class="img-polaroid" alt="" src="grey-spacer.png" width="130" height="130"></div>
+            <div class="span2"><img class="img-polaroid" alt="" src="ge.png" width="130" height="130"></div>
             <div class="span4"><h4>GE Imagination in IT Award <small>2011</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
         </div><br />
                         <div class="row">
-        	<div class="span2"><img class="img-polaroid" alt="" src="grey-spacer.png" width="130" height="130"></div>
+        	<div class="span2"><img class="img-polaroid" alt="" src="cisco.png" width="130" height="130"></div>
             <div class="span4"><h4>Cisco Innovation Award <small>2012</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
-            <div class="span2"><img class="img-polaroid" alt="" src="grey-spacer.png" width="130" height="130"></div>
+            <div class="span2"><img class="img-polaroid" alt="" src="goldman.png" width="130" height="130"></div>
             <div class="span4"><h4>Goldman Sachs Award <small>2012</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
         </div>
         </section>
@@ -107,12 +142,12 @@ body {
         <section id="contact">
         	<div class="page-header"><h1>Contact Us <small>Questions? Want to join the OpenComm team?</small></h1></div>
             <div class="row">
-            	<div class="span6"><h3>Who We're Looking For</h3></div>
                 <div class="span6"><h3>Join Us</h3></div>
+            	<div class="span6"><h3>Who We're Looking For</h3></div>
             </div>
             <div class="row">
-            	<div class="span6"><p>We're always looking to grow our team. We have roles available in:</p> <ul><li>Human-Computer Interaction (HCI) Design</li><li>Human-Computer Interaction Security (HCISec)</li><li>Software Development</li><li>Publication</li></ul></div>
                 <div class="span6"><p>We welcome undergraduates and graduates from all majors and all levels of experience. <a href="mailto:CUOpenComm@gmail.com">Contact the project leader</a> Risa Naka to schedule an interview.</p></div>
+                            	<div class="span6"><p>We're always looking to grow our team. We have roles available in:</p> <ul><li>Human-Computer Interaction (HCI) Design</li><li>Human-Computer Interaction Security (HCISec)</li><li>Software Development</li><li>Publication</li></ul></div>
             </div>
         </section>
         
@@ -121,5 +156,7 @@ body {
         <p>Copyright &copy; 2012 OpenComm Group</p>
         </footer>
     </div>
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </body>
 </html>
