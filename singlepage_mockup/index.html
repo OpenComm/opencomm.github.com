@@ -26,7 +26,7 @@ body {
                     	<li><a href="#features">Features</a></li>
                         <li><a href="#team">About Us</a></li>
                         <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="form.html">Form Mockup</a></li>
+                        <!--<li><a href="form.html">Form Mockup</a></li>-->
                 	</ul>
                 </div>
             </div>
@@ -36,9 +36,26 @@ body {
     	<div class="hero-unit">
         	<h1>Better Audio Conferencing</h1>
             <p>Make your audio conferences more engaging and less confusing with sound spatialization, side chats, and more, all on your mobile device.</p>
-            <p><a href="#features" class="btn btn-primary btn-large">Find out more</a></p>
+            <p><a href="#featuresDemo" role="button" data-toggle="modal" class="btn btn-primary btn-large">See the demo</a></p>
         </div>
-        
+          <!-- Modal -->
+            <div id="featuresDemo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="featuresDemo" aria-hidden="true">
+                <div class="modal-header">
+                	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                	<h3 id="featuresDemo">OpenComm Features Demo</h3>
+                </div>
+                <div class="modal-body">
+                      <video width="530" height="400" controls>
+                      <source src="opencommdemo.mp4" type="video/mp4">
+                      <source src="opencommdemo.oggtheora.ogv" type="video/ogg">
+                      Your browser does not support the video tag.
+                    </video> 
+                </div>
+                <div class="modal-footer">
+                	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+         <!-- End Modal -->
         <section id="features" >
             <div class="page-header">
                 <h1>Features <small>What makes OpenComm different?</small></h1>
@@ -46,20 +63,24 @@ body {
             <div class="row">
             	<div class="span6"><h3>Sound spatialization</h3></div>
                 <div class="span6"><h3>Side Chats</h3></div></div>
-            <div class="row">
-                <div class="span6"><p>Once you add users into a conference, there may be situations where you want to hear some people better than others. With sound spatialization, you can manipulate how you hear each participant by moving their icons around the conference. You can experience the conference call as if you were in your meeting room. </p></div>
-                <div class="span6"><p> Side chats are separate conversations with people in the conference, where you can plan ahead for the conference or talk about private or sensitive subjects. You can easily go in by simply selecting the side chat and then go out by selecting another side chat or the main conference icon.  </p></div>
+            <div class="row"><div class="span2">                	<img class="img-rounded" alt="Sound Spatialization" src="feature_sound.png" width="170" height="170">
+</div>
+                <div class="span4"><p>Once you add users into a conference, there may be situations where you want to hear some people better than others. With sound spatialization, you can manipulate how you hear each participant by moving their icons around the conference. You can experience the conference call as if you were in your meeting room. </p></div>
+                <div class="span2">                	<img class="img-rounded" alt="Sidechats" src="feature_sidechat.png" width="170" height="170">
+</div>
+                <div class="span4"><p> Side chats are separate conversations with people in the conference, where you can plan ahead for the conference or talk about private or sensitive subjects. You can easily go in by simply selecting the side chat and then go out by selecting another side chat or the main conference icon.  </p></div>
             </div>
             <div class="row">
-                <div class="span12"><h3>Quick Setup</h3></div>
+            	<div class="span6"><h3>Moderators</h3></div>
+                <div class="span6"><h3>Quick Setup</h3></div>
             </div>
             <div class="row">
-                <div class="span12"><p>Getting started with OpenComm is easy. Once installed on your phone, the app synchronizes with the contacts already available on your phone.</p></div>
+            	<div class="span2">                	<img class="img-rounded" alt="Moderators" src="feature_moderator.jpg" width="170" height="170"></div>
+                <div class="span4"><p>Moderators in a conference can add people, remove people, and end the conference.</p></div>
+                <div class="span2">                	<img class="img-rounded" alt="Quick Setup" src="feature_nonmuted.png" width="170" height="170"></div>
+
+                <div class="span4"><p>Getting started with OpenComm is easy. Once installed on your phone, the app synchronizes with the contacts already available on your phone.</p></div>
             </div>
-            <!--        <div class="row">
-        	<div class="span5"><img class="img-rounded" alt="" src="grey-spacer.png" width="550" height="550"></div>
-            <div class="span7"><h4>Feature Demo</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie. Morbi dapibus posuere placerat. Cras eu vestibulum nibh. Duis consequat, lacus eu consequat congue, sem libero adipiscing nibh, quis cursus enim turpis sagittis massa. Nunc sed leo elit. Mauris fermentum nunc sed arcu mattis vehicula.</p></div>
-        </div> -->
         </section>
         
         <section id="team">
@@ -125,17 +146,11 @@ body {
         </div>
         <br />
                 <div class="row">
-        	<div class="span2"><img class="img-polaroid" alt="" src="cisco.png" width="130" height="130"></div>
-            <div class="span4"><h4>Cisco Pioneer Award <small>2011</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
-            <div class="span2"><img class="img-polaroid" alt="" src="ge.png" width="130" height="130"></div>
-            <div class="span4"><h4>GE Imagination in IT Award <small>2011</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
-        </div><br />
-                        <div class="row">
-        	<div class="span2"><img class="img-polaroid" alt="" src="cisco.png" width="130" height="130"></div>
-            <div class="span4"><h4>Cisco Innovation Award <small>2012</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
-            <div class="span2"><img class="img-polaroid" alt="" src="goldman.png" width="130" height="130"></div>
-            <div class="span4"><h4>Goldman Sachs Award <small>2012</small></h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id risus nec ipsum blandit pretium. Proin aliquet adipiscing arcu ut molestie.</p></div>
-        </div>
+        	<div class="span2"><img class="img-polaroid" alt="" src="boom2011.png" width="130" height="134"></div>
+            <div class="span4"><h4>BOOM (Bits on our Minds) <small>2011</small></h4><ul><li> 	<span class="label label-success">Cisco Pioneer Award</span></li><li> 	<span class="label label-success">GE Imagination in IT Award</span></li></ul></div>
+                 <div class="row">
+        	<div class="span2"><img class="img-polaroid" alt="" src="boom2012.png" width="130" height="134"></div>
+            <div class="span4"><h4>BOOM (Bits on our Minds) <small>2012</small></h4><ul><li> 	<span class="label label-success">Cisco Innovation Award</span></li><li> 	<span class="label label-success">Goldman Sachs Award</span></li></ul></div><br />
         </section>
         
         <section id="contact">
